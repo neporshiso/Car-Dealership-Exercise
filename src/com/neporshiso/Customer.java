@@ -1,6 +1,5 @@
 package com.neporshiso;
 
-// Will create an instance of customer within the dealership class that will invoke it's purchase car method
 public class Customer {
 
     private String name;
@@ -41,7 +40,7 @@ public class Customer {
     }
 
 
-    public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
-
+    public void purchaseCar(Customer customer, Vehicle vehicle, Employee emp, boolean finance) {
+        emp.handleCustomer(customer,finance,vehicle);
     }
 }
