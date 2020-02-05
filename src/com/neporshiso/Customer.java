@@ -36,7 +36,7 @@ public class Customer {
     }
 
     public void setCreditScore(int creditScore) throws Exception {
-        if (creditScore > 850 || creditScore < 300) throw new Exception("That's an invalid credit score");
+        if (creditScore > 850 || creditScore < 300) throw new Exception("Credit scores must be between 300 and 850");
         this.creditScore = creditScore;
     }
 
