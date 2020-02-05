@@ -40,7 +40,7 @@ public class Customer {
         this.creditScore = creditScore;
     }
 
-    public void purchaseCar(Customer customer, Vehicle vehicle, Employee emp, boolean finance) {
-        emp.handleCustomer(emp, customer, finance, vehicle);
+    public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
+        emp.handleCustomer(emp, this, finance, vehicle);
     }
 }

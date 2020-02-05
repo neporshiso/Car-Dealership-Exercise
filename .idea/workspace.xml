@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/neporshiso/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neporshiso/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/neporshiso/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neporshiso/Dealership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neporshiso/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neporshiso/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neporshiso/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neporshiso/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +86,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1120" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1580921998241">
+    <state x="-1120" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1580927496260">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
-    <state x="-1120" y="274" key="#com.intellij.ide.util.MemberChooser/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580921998241" />
+    <state x="-1120" y="274" key="#com.intellij.ide.util.MemberChooser/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580927496260" />
     <state width="927" height="505" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1580922680607">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
@@ -98,21 +98,21 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="0" y="299" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580922680606" />
-    <state width="1823" height="206" key="GridCell.Tab.0.bottom" timestamp="1580925790071">
+    <state width="1823" height="206" key="GridCell.Tab.0.bottom" timestamp="1580927608851">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
-    <state width="1823" height="206" key="GridCell.Tab.0.bottom/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580925790071" />
-    <state width="1823" height="206" key="GridCell.Tab.0.center" timestamp="1580925790069">
+    <state width="1823" height="206" key="GridCell.Tab.0.bottom/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580927608851" />
+    <state width="1823" height="206" key="GridCell.Tab.0.center" timestamp="1580927608850">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
-    <state width="1823" height="206" key="GridCell.Tab.0.center/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580925790069" />
-    <state width="1823" height="206" key="GridCell.Tab.0.left" timestamp="1580925790068">
+    <state width="1823" height="206" key="GridCell.Tab.0.center/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580927608850" />
+    <state width="1823" height="206" key="GridCell.Tab.0.left" timestamp="1580927608849">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
-    <state width="1823" height="206" key="GridCell.Tab.0.left/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580925790068" />
-    <state width="1823" height="206" key="GridCell.Tab.0.right" timestamp="1580925790070">
+    <state width="1823" height="206" key="GridCell.Tab.0.left/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580927608849" />
+    <state width="1823" height="206" key="GridCell.Tab.0.right" timestamp="1580927608851">
       <screen x="-1865" y="23" width="1865" height="1057" />
     </state>
-    <state width="1823" height="206" key="GridCell.Tab.0.right/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580925790070" />
+    <state width="1823" height="206" key="GridCell.Tab.0.right/-1865.23.1865.1057/0.23.1920.1057@-1865.23.1865.1057" timestamp="1580927608851" />
   </component>
 </project>

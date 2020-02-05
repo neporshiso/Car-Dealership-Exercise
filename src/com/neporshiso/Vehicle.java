@@ -1,5 +1,7 @@
 package com.neporshiso;
 
+import java.util.Objects;
+
 public class Vehicle {
     private String make;
     private String model;
@@ -37,4 +39,27 @@ public class Vehicle {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    // Nicer formatting if you want to print the object directly
+    public String toString() {
+        return "Vehicle{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
+
+    // Allows you to compare objects if they contain the same data
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return year == vehicle.year &&
+                Double.compare(vehicle.price, price) == 0 &&
+                make.equals(vehicle.make) &&
+                model.equals(vehicle.model);
+    }
+
+
 }

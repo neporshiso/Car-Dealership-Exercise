@@ -22,6 +22,15 @@ public class Dealership {
         vehicle1.setPrice(29000);
         vehicle1.setYear(2019);
 
+        Vehicle vehicle2 = new Vehicle();
+        vehicle2.setMake("Honda");
+        vehicle2.setModel("CR-V");
+        vehicle2.setPrice(29000);
+        vehicle2.setYear(2019);
+
+        boolean vehicleComparison = vehicle1.equals(vehicle2);
+        System.out.println("vehicleComparision is " + vehicleComparison);
+
         Employee employee1 = new Employee();
         employee1.setCarsSold(9);
         employee1.setName("Harry");
@@ -30,10 +39,12 @@ public class Dealership {
         /*
          Really didn't think that I could pass in the instantiated object to a method belonging to the same object.
          I'm doing this because in order for employee1 to invoke handleCustomer within customer's purchaseCar method, I
-         need access to the customer object.
+         need access to the customer object...
+
+         No need to do that... can refer to this. this points to customer1 and can use that within customer1 methods.
         */
         System.out.println(employee1.getCarsSold()); // 9
-        customer1.purchaseCar(customer1, vehicle1, employee1, true);
+        customer1.purchaseCar(vehicle1, employee1, true);
 
         // After selling the car, we use the setCarsSold method to
         // increment employee1 sales count
