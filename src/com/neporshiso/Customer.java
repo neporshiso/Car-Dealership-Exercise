@@ -35,12 +35,12 @@ public class Customer {
         return creditScore;
     }
 
-    public void setCreditScore(int creditScore) {
+    public void setCreditScore(int creditScore) throws Exception {
+        if (creditScore > 850 || creditScore < 300) throw new Exception("That's an invalid credit score");
         this.creditScore = creditScore;
     }
 
-
     public void purchaseCar(Customer customer, Vehicle vehicle, Employee emp, boolean finance) {
-        emp.handleCustomer(customer,finance,vehicle);
+        emp.handleCustomer(emp, customer, finance, vehicle);
     }
 }
